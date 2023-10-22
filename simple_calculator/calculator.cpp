@@ -2,10 +2,17 @@
 
 using namespace std;
 
+/**
+* Main function for the program. Prints the operands separated by space and
+* calls the function that performs the operation.
+* 
+* @return Returns 0 if success.In this case the program exits
+*/
 int main() {
 	int _operator;
 	double num1, num2, result;
 
+	// Print the list of possible queries to the screen.
 	do
 	{
 		cout << "\nOPERATOR MENU" << endl;
@@ -19,10 +26,12 @@ int main() {
 		cin >> _operator;
 	} while (_operator < 1 || _operator > 5);
 
+	// \ brief Enter two numbers ( operands ) separated by space ( \ n
 	cout << "Enter the two numbers(operands) separated by space:" << endl;
 	cin >> num1 >> num2;
 
 
+	// The operator of the operator.
 	switch (_operator) {
 		case 1:
 			result = num1 + num2;
