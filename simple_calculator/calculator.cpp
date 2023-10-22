@@ -20,7 +20,7 @@ int main() {
 		cout << "2. minus(-)" << endl;
 		cout << "3. multiplication(*)" << endl;
 		cout << "4. division(/)" << endl;
-		cout << "5. modulo(%)" << endl;
+		cout << "5. modulo(%%)" << endl;
 
 		cout << "Select an operator: ";
 		cin >> _operator;
